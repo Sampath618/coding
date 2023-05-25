@@ -1,0 +1,11 @@
+#include<stdio.h>
+void main();
+{
+	char a[100];
+	int i;
+	gets(a);
+	puts(a);
+	strrev(a);
+	puts(a);
+	getch();
+}
