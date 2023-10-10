@@ -1,0 +1,3 @@
+n=int(input("hours"))
+min=n*60
+print("min:",min)
