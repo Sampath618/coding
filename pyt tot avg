@@ -1,0 +1,13 @@
+sno=int(input())
+name=chr(input())
+group=chr(input())
+sub1=int(input())
+sub2=int(input())
+sub3=int(input())
+tot=sub1+sub2+sub3
+avg=tot/3
+print("sno:",sno)
+print("name:",name)
+print("group:",group)
+print("tot:",tot)
+print("avg:",avg)
