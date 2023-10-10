@@ -1,0 +1,7 @@
+p=int(input("princliple amount"))
+t=int(input("time"))
+r=int(input("rate of interest"))
+m=int(input(total months"))
+      si=p*t*r/100
+            emi=si+p/m
+               print("emi:",emi)
