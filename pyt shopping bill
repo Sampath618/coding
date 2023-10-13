@@ -1,0 +1,29 @@
+st=400
+pt=800
+ts=300
+sho=600
+cname=input("enter the custmer name")
+phno=input("enter the custmer ph no")
+tno=int(input("enter the number"))
+stq=int(input("enter the shirt qut"))       
+ptq=int(input("enter the pant qut"))       
+tsq=int(input("enter the tea qut"))       
+shoq=int(input("enter the short qut"))
+bill=st*stq+pt*ptq+ts*tsq+sho*shoq
+if bill>=1500:
+   dis=bill*10/100
+elif bill>=1000:
+     dis=bill*8/100
+elif bill>=800:
+     dis=bill*6/100
+elif bill>=500:
+     dis=bill*4/100
+else:
+     dis=0
+price=bill-dis
+gst=price*12/100
+amount=price+gst
+print("custmer name",cname)
+print("custmer ph number",phno)
+print("custmer tocken no",tno)
+print("total amount:",amount)
