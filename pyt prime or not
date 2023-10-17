@@ -1,0 +1,13 @@
+n=int(input())
+i=1
+cou=0
+while i<=n:
+    if n%i==0:
+        cou=cou+1
+    i=i+1
+if cou==2:
+    print('prime number')
+else:
+    print('not prime number')
+  
+  
