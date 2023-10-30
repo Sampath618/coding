@@ -1,0 +1,61 @@
+am=int(input())
+tho=0
+fh=0
+th=0
+h=0
+fi=0
+tw=0
+te=0
+fiv=0
+to=0
+on=0
+while am>=2000:
+    tho=tho+1
+    am=am-2000
+while am>=500:
+    fh=fh+1
+    am=am-500
+while am>=200:
+    th=th+1
+    am=am-200    
+while am>=100:
+    h=h+1
+    am=am-100
+while am>=50:
+    fi=fi+1
+    am=am-50
+while am>=20:
+    tw=tw+1
+    am=am-20
+while am>=10:
+    te=te+1
+    am=am-10
+while am>=5:
+    fiv=fiv+1
+    am=am-5
+while am>=2:
+    to=to+1
+    am=am-2
+while am>=1:
+    on=on+1
+    am=am-1
+if tho>=0:
+    print('2000:'+str(tho))
+if fh>=0:
+    print('500:'+str(fh))
+if th>=0:
+    print('200:'+str(th))
+if h>=0:
+    print('100:'+str(h))
+if fi>=0:
+    print('50:'+str(fi))
+if tw>=0:
+    print('20:'+str(tw))
+if te>=0:
+    print('10:'+str(te))
+if fiv>=0:
+    print('5:'+str(fiv))
+if to>=0:
+    print('2:'+str(to))
+if on>=0:
+    print('1:'+str(on))    
