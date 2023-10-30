@@ -1,0 +1,6 @@
+n=int(input('enter the table value'))
+l=int(input('enter the last value'))
+for i in range(1,l+1):
+    if n!=0:
+        k=i*n
+        print(n,'*',i,'=',k)
