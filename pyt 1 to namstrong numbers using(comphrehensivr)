@@ -1,0 +1,13 @@
+def amst(y):
+        am=0
+        tem=y
+        while tem>0:
+            re=tem%10
+            am=am+re*re*re
+            tem=tem//10
+        if y==am:
+            return True
+n=int(input())
+l=[i for i in range(2,n+1) if amst(i)]
+for i in l:
+    print(i)
