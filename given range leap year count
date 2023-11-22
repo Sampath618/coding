@@ -1,0 +1,13 @@
+fl=int(input())
+sl=int(input())
+fsl=[]
+for i in range(fl,sl+1):
+    if i%4==0 and i%100!=0:
+        fsl.append(i)
+    elif i%400==0:
+        fsl.append(i)
+    else:
+        pass
+for i in fsl:
+    print(len(fsl))
+    break
