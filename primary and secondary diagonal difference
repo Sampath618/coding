@@ -1,0 +1,14 @@
+n=int(input())
+mt=[]
+for i in range(0,n):
+    l=list(map(int,input().split()))                   
+    mt.append(l)
+pd=0
+sd=0
+for i in range(0,n):
+    for j in range(0,n):
+        if i==j:
+            pd=pd+mt[i][j]
+        if i+j==n-1:
+            sd=sd+mt[i][j]
+print(abs(pd-sd))
