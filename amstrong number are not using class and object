@@ -1,0 +1,17 @@
+class Amst:
+    def pro(self,n):
+        s=n
+        val=0
+        while s!=0:
+            re=s%10
+            val=val+re*re*re
+            s=s//10
+        if n==val:
+            return True
+        return False
+n=int(input("enter the amstrong number"))
+ob=Amst()
+if ob.pro(n):
+    print("amstrong number")
+else:
+    print("not amstrong number")
