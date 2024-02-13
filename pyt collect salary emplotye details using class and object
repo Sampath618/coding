@@ -1,0 +1,39 @@
+class Pro():
+    def getdata(self,em,emp,des,ba,hr,ta):
+        self.em=em
+        self.emp=emp
+        self.des=des
+        self.ba=ba
+        self.hr=hr
+        self.ta=ta
+    def putdata(self):
+        print("self employe number",self.em)
+        print("self employe name",self.emp)
+        print("desigination",self.des)
+        print("basic",ba)
+        print("hr",hr)
+        print("tata",ta)
+        ns=(self.ba+self.hr+self.ta)
+        print("net salary",ns)
+        if ns>50000:
+            tax=5/100
+            empl=ns+tax
+        elif ns>35000:
+            tax=3/100
+            empl=sn+tax
+        elif ns>20000:
+            tax=1/100
+            empl=sn+tax
+        else:
+            tax=0
+            emp=sn+tax
+        print("salary amount",empl)    
+ob=Pro()
+em=int(input("enter the emp number"))
+emp=input("enter the emp name")
+des=input("enter the desigination")
+ba=int(input("enter tye basic amount"))
+hr=int(input("emter the hr amount"))
+ta=int(input("enter the tata amount"))
+ob.getdata(em,emp,des,ba,hr,ta)
+ob.putdata()
